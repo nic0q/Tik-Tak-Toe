@@ -1,0 +1,49 @@
+#container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+#tablero {
+  display: flex;
+  margin-top: 300px;
+  background-color: rgb(7, 5, 5);
+  transform: rotate(-90deg);
+}
+.position {
+  transform: rotate(90deg);
+  text-align: center;
+  font-size: 80px;
+}
+.position img {
+  margin-bottom: 30px;
+  margin-left: 5px;
+  width: 120px;
+}
+#X {
+  margin-bottom: 30px;
+  margin-left: 5px;
+  width: 120px;
+}
+#O {
+  margin-bottom: 30px;
+  margin-left: 5px;
+  width: 120px;
+}
+.col1 {
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  margin: 5px;
+}
+.col2 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(98, 98, 228);
+  margin: 5px;
+}
+.col3 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(128, 152, 230);
+  margin: 5px;
+}
