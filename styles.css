@@ -1,3 +1,6 @@
+*{
+  background-color: rgb(31, 29, 29);
+}
 #container {
   display: flex;
   justify-content: center;
@@ -13,37 +16,34 @@
   transform: rotate(90deg);
   text-align: center;
   font-size: 80px;
+  color: white;
 }
 .position img {
   margin-bottom: 30px;
   margin-left: 5px;
   width: 120px;
 }
-#X {
+.signs {
   margin-bottom: 30px;
   margin-left: 5px;
   width: 120px;
 }
-#O {
-  margin-bottom: 30px;
-  margin-left: 5px;
+.col{
   width: 120px;
+  height: 120px;
+  margin: 8px;
+  margin-right: 2px;
 }
 .col1 {
-  width: 120px;
-  height: 120px;
-  background-color: blue;
-  margin: 5px;
+  background-color: rgb(52, 52, 231);
 }
 .col2 {
-  width: 120px;
-  height: 120px;
   background-color: rgb(98, 98, 228);
-  margin: 5px;
 }
 .col3 {
-  width: 120px;
-  height: 120px;
   background-color: rgb(128, 152, 230);
-  margin: 5px;
+}
+.btn{
+  width: 200px;
+  font-size: 30px;
 }
