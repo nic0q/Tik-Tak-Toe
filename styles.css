@@ -1,6 +1,7 @@
 * {
   zoom: 110%;
   background-color: rgb(31, 29, 29);
+  color: white;
 }
 #container {
   display: flex;
