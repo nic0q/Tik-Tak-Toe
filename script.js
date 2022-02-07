@@ -19,6 +19,7 @@ const insertSign = (position, sign1, sign2) => {
     arr[position.id] = -1;
   }
 };
+
 const freezeBoard = () => {
   $position.forEach((sqr) => {
     sqr.classList.add("disable");
@@ -134,6 +135,7 @@ const resetBoardButton = () => {
     })
   );
 };
+
 const resetGame = () => {
   $resetGamebtn.addEventListener("click", () => {
     resetBoard();
@@ -141,6 +143,7 @@ const resetGame = () => {
     $scoreP2.innerHTML = 0;
   });
 };
+
 play();
 resetBoardButton();
 resetGame();
